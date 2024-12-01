@@ -1,15 +1,15 @@
-/* styles.css */
+
 /* Baby Pink Theme */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ffe4e1; /* Light pink background */
+    background-color: #ffe4e1; 
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    color: #d1a2c1; /* Soft lavender pink for the heading */
+    color: #d1a2c1;
     font-size: 2.5rem;
     margin-top: 20px;
 }
@@ -19,10 +19,10 @@ h1 {
     width: 300px;
     height: 300px;
     margin: 20px auto;
-    background: #fff0f5; /* Light pink container background */
-    border: 3px solid #ffc0cb; /* Pastel pink border */
+    background: #fff0f5; 
+    border: 3px solid #ffc0cb;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4); /* Soft pink shadow */
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,10 +45,10 @@ h1 {
 input[type="text"] {
     padding: 10px;
     width: 200px;
-    border: 5px solid #ffc0cb; /* Pastel pink border */
+    border: 5px solid #ffc0cb; 
     border-radius: 5px;
-    background-color: #fff0f5; /* Light pink input background */
-    color: #d291bc; /* Soft lavender text color */
+    background-color: #fff0f5; 
+    color: #d291bc; 
 }
 
 input[type="text"]::placeholder {
@@ -59,18 +59,18 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ffc0cb; /* Baby pink button */
+    background-color: #ffc0cb; 
     color: white;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 3px 8px rgba(255, 182, 193, 0.5); /* Pink shadow for the button */
+    box-shadow: 0 3px 8px rgba(255, 182, 193, 0.5); 
 }
 
 button:hover {
-    background-color: #ffb6c1; /* Slightly darker pink on hover */
+    background-color: #ffb6c1;
 }
 
 button:active {
-    background-color: #ff99aa; /* Even darker pink when clicked */
+    background-color: #ff99aa; 
     box-shadow: 0 2px 5px rgba(255, 182, 193, 0.5);
 }
